@@ -1,0 +1,40 @@
+colours.neilorangepeel.com //cool colors
+zen design // css designs
+color picker // code for colors
+
+basic css:
+selector {
+	property: value;
+}
+
+color property:
+color: property;
+rgb(0 , 0 , 0); //0-255
+rgba(0, 0 , 0 , 0); //4th channel is alpha - 0.00 -> 1.00 
+#FFFFFF // 0123456789ABCDEF
+
+background property -
+background: property;
+
+background: rgba( 0 ,0 ,0 ,0);
+background: url("site name");
+background-repeat: no-repeat; //background doesnt repeat
+background-size: cover; //covers whole page
+
+border property-
+border needs - color,width,style
+border-color: purple
+border-width: 5px
+border-style: solid
+
+or
+
+border: 5px solid purple;
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+textContent 
+----------------------------------------------------------------
+takes only the text inside the elements selector
+
+eg.
+
+var text = document.querySelector("p");
+
+text.textContent = "new text"
+
+NB - TEXT CONTENT DOES NOT RECOGNIZE HTML. WILL TREAT TAGS AS TEXT
+
+this changes the text inside the p tag to new text
+----------------------------------------------------------------
+innerHTML
+----------------------------------------------------------------
+takes the text aswell as the tags inside a a tag
+
+eg.
+
+var text=document.getElementsbyTag("ul")[0];
+
+text.innerHTML
+
+will return 
+
+<ul> List <li> List item 1 </li> ................ </ul>
+
+NB- innerHTML WILL RECOGNIZE TAGS.
+
+===============================================================
+We can shortcut these methods etc.
+
+document.querySelector("h1").textContent =  " etc "
+document.querySelector("h1").innerHTML
+
+CHANGING ATTRIBUTES
+==============================================================
+Use 
+getAttribute() - takes 1 argument
+
+setAttribute() - takes 2 arguments - Element choosing, to change
+
+

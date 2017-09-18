@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+<div>
+ <!-- firstname and last name -->
+<label for="firstName">First Name:</label>
+<input id="firstName" type="text" name="" placeholder="John" required="">
+
+<label for="lastName">Last Name</label>
+<input id="lastNameName" type="text" name="" placeholder="Smith" required="">
+</div>
+<!-- end -->
+
+<!-- gender -->
+<div>
+<label for="male">Male</label>
+<input id="male" value="MALE" type="radio" name="Gender">
+
+<label for="female">Female</label>
+<input id="female" value="FEMALE" type="radio" name="Gender">
+
+<label for="other">Other</label>
+<input id="other" value="OTHER" type="radio" name="Gender">
+</div>
+<!-- end gender -->
+
+<!-- email and pass -->
+<div>
+<label for="email">Email:</label>
+<input id="email" value="EMAIL" type="email" name="" placeholder="samplemail@mail.com" required="">
+
+<label for="password">Password:</label>
+<input type="password" pattern=".{5,}" id="password" name="" required title="5 characters minimum">
+</div>
+<!-- end -->
+
+<!-- bithday month day year selection -->
+<div>
+<label for="bday">Birthday: </label>
+
+<select id="Month" name="month" required="">
+	<option>January</option>
+	<option>February</option>
+	<option>March</option>
+</select>
+<select id="Day" name="day" required="">
+	<option>January</option>
+	<option>February</option>
+	<option>March</option>
+</select>
+<select id="Year" name="year" required="">
+	<option>January</option>
+	<option>February</option>
+	<option>March</option>
+</select>
+</div>
+<!-- end -->
+
+<div>
+<label for="terms">I agree to the terms and conditions</label>
+<input type="checkbox" name="terms" required="">
+</div>
+<div>
+<button>Submit</button>
+</div>
+</form>
+
+</body>
+</html>

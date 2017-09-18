@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Login</h1>
+<form action="http://wikipedia.org" method="get">
+	<label for="username">Username</label>
+	<input id="username" type="text" placeholder="Username" required>
+
+	<label for="password">Password</label>
+	<input id="password" type="password" placeholder="Password" required="">
+
+	<input type="submit">
+
+</form>
+
+<form>
+<!-- by having the same name value - can only pick one or the other -->
+<!-- value is what the form will return -->
+	<label for="dogs">Dogs:</label>
+	<input type="radio" name="petchoice" id="dogs" value="dog">
+
+	<label for="cats">Cats:</label>
+	<input type="radio" name="petchoice" id="cats" value="cat">
+
+	<select name="color" placeholder=" ">
+	<!-- by default color=The text in option -->
+	<!-- having value="" will set color="" -->
+		<option value="red">Red</option>
+		<option>Yellow</option>
+		<option>Orange</option>
+	</select>
+
+	<button>Go!</button>
+	<textarea name="textarea"rows="10" cols="10"></textarea>
+</form>
+
+</body>
+</html>

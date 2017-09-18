@@ -1,0 +1,26 @@
+JAVASCRIPT EVENTS
+
+EventListener
+eg.
+
+<button>Click Me</button>
+<p>Not clicked</p>
+
+var button  = document.querySelector("button");
+var paragraph = document.querySelector("p");
+
+//setting up click listener
+button.addEventListener("click", function()
+{
+	paragraph.textContent = "Clicked!";
+})
+
+//can also use a named function
+
+button.addEventlistener("click". changeText);
+
+NB - We dont add changeText() because it will run the code immediately.
+
+function changeText(){
+	paragraph.textContent = "Clicked!";
+}

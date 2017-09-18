@@ -1,0 +1,26 @@
+Array iteration - http://webdev.slides.com/coltsteele/javascript-basics-20-21-22-63#/2
+
+Array Methods - http://webdev.slides.com/coltsteele/javascript-basics-20-21-62#/
+
+Excercise - Foreach - what does it output
+
+var numbers = [1,2,3,4,5,6,7,8,9,10];
+var colors = [some colors];
+
+numbers.forEach(function(color){
+	
+
+if(color % 3 === 0 ){
+	console.log(color);
+}
+
+});
+
+my explanation : in this case it makes it confusing because of the "color" parameter.
+
+color is not related to colors in any case. color is just an argument for all the elements inside numbers.
+
+output = 
+3
+6
+9

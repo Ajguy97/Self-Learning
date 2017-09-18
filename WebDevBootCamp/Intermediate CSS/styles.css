@@ -1,0 +1,51 @@
+body{
+	width: 70%;
+	border: 20px solid grey;
+	margin:10px auto;
+	font-size: 100px;
+}
+
+div{
+	font-family: Source Sans Pro;
+	font-size: 10%;
+	padding: 1% 5% 1% 5%;
+	font-size: 20%;
+}
+
+
+/*i could have applied a class name to this div instead but still the same outcome*/
+div:nth-of-type(1){
+	border-left: 10px solid grey; 
+	margin-left: 5%;
+	padding-left: 1%;
+	}
+
+div:nth-of-type(4){
+	border-left: 10px solid grey;
+	margin-left: 5%;
+	padding-left: 1%;
+	}
+
+h1{
+	
+	padding-left: 5%;
+	font-family: Source Sans Pro;
+	font-size: 50%;
+	font-weight: 800;
+}
+
+h6{
+	
+	letter-spacing: 3px;
+	padding-left: 5%;
+	text-transform: uppercase;
+	font-family: Source Sans Pro;
+	font-size: 20%;
+	font-weight: 800;
+	color: cyan;
+}
+
+hr{
+	width: 90%;
+	margin: 20 auto;
+}

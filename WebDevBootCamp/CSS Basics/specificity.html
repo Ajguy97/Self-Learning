@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+	<style type="text/css">
+		/*least specific ones*/
+		body {
+			color: red;
+		}
+		li {
+			color: orange;
+		}
+		/*lower than id*/
+		.highlight{
+			color: yellow;
+		}
+		/*most specific*/
+		#high{
+			color: red;
+		}
+
+	</style>
+</head>
+<body>
+<h1>Names</h1>
+<ul>
+<li  id="high" class="highlight">Name1</li>	
+<li class="highlight">Name2</li>
+<li>Name3</li>	
+</ul>
+</body>
+</html>
