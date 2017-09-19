@@ -1,0 +1,44 @@
+DOCUMENT METHODS
+
+document.getElementbyId("id") - takes a string argum,ent and returns the one element with a matching ID
+
+document.getElementsByClassName("bolded"); - Takes a string argument and returns a list of elements that have a matching class.
+											- the list it returns isnt an array but like a nodelist.
+
+document.getElementsByTagName("li")[0]; - Returns a list of all elements of a given tag name, like <li> or <h1>
+									- also returns a node list
+
+document.querySelector("#idname") - returns the first element that matches a given CSS-style selector.
+document.querySelector(".classname") - only returns 1 element
+
+document.querySelectorAll(etc.) - can select many or 1 
+
+DOM MANIPULATION - 
+
+Style
+
+The style property is one way to manipulate an element's style
+style tag has so many properties :o
+its an object
+
+/SELECT
+var tag = document.getElementById("highlight");
+
+/MANIPULATE
+tag.style.color = "blue";
+tag.style.border = "10px solid red";
+tag.style.fontSize = "70px";
+tag.style.background = "yellow";
+tag.style.marginTop = "200px";
+
+/AN ALTERNATIVE
+define a class in css
+THEN you apply the class to some element
+use classList property
+
+eg.
+var tag = document.querySelector("h1");
+
+tag.classList.add("another-class");
+"" .  "" .remove("");
+"" .  "" .toggle("");
